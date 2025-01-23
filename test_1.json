@@ -1,0 +1,1510 @@
+[
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php",
+        "line": 123,
+        "function": "require"
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php",
+        "line": 124,
+        "function": "Illuminate\\Filesystem\\{closure}",
+        "class": "Illuminate\\Filesystem\\Filesystem",
+        "type": "::",
+        "args": []
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php",
+        "line": 58,
+        "function": "getRequire",
+        "class": "Illuminate\\Filesystem\\Filesystem",
+        "object": {},
+        "type": "->",
+        "args": [
+            "D:\\windows\\programs\\xamp\\htdocs\\king-store\\storage\\framework\\views\/e9d4ff6076a7994d0d415151cc2c3087.php",
+            {
+                "__env": {},
+                "app": {
+                    "contextual": {
+                        "Laravel\\Telescope\\Storage\\DatabaseEntriesRepository": {
+                            "$connection": "mysql",
+                            "$chunkSize": 1000
+                        },
+                        "Livewire\\Volt\\Precompilers\\ExtractFragments": {
+                            "$compiledViewPath": {}
+                        }
+                    },
+                    "contextualAttributes": []
+                },
+                "errors": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php",
+        "line": 22,
+        "function": "evaluatePath",
+        "class": "Illuminate\\View\\Engines\\PhpEngine",
+        "object": {},
+        "type": "->",
+        "args": [
+            "D:\\windows\\programs\\xamp\\htdocs\\king-store\\storage\\framework\\views\/e9d4ff6076a7994d0d415151cc2c3087.php",
+            {
+                "__env": {},
+                "app": {
+                    "contextual": {
+                        "Laravel\\Telescope\\Storage\\DatabaseEntriesRepository": {
+                            "$connection": "mysql",
+                            "$chunkSize": 1000
+                        },
+                        "Livewire\\Volt\\Precompilers\\ExtractFragments": {
+                            "$compiledViewPath": {}
+                        }
+                    },
+                    "contextualAttributes": []
+                },
+                "errors": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php",
+        "line": 75,
+        "function": "evaluatePath",
+        "class": "Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine",
+        "object": {},
+        "type": "->",
+        "args": [
+            "D:\\windows\\programs\\xamp\\htdocs\\king-store\\storage\\framework\\views\/e9d4ff6076a7994d0d415151cc2c3087.php",
+            {
+                "__env": {},
+                "app": {
+                    "contextual": {
+                        "Laravel\\Telescope\\Storage\\DatabaseEntriesRepository": {
+                            "$connection": "mysql",
+                            "$chunkSize": 1000
+                        },
+                        "Livewire\\Volt\\Precompilers\\ExtractFragments": {
+                            "$compiledViewPath": {}
+                        }
+                    },
+                    "contextualAttributes": []
+                },
+                "errors": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php",
+        "line": 10,
+        "function": "get",
+        "class": "Illuminate\\View\\Engines\\CompilerEngine",
+        "object": {},
+        "type": "->",
+        "args": [
+            "D:\\windows\\programs\\xamp\\htdocs\\king-store\\resources\\views\/dashboard.blade.php",
+            {
+                "__env": {},
+                "app": {
+                    "contextual": {
+                        "Laravel\\Telescope\\Storage\\DatabaseEntriesRepository": {
+                            "$connection": "mysql",
+                            "$chunkSize": 1000
+                        },
+                        "Livewire\\Volt\\Precompilers\\ExtractFragments": {
+                            "$compiledViewPath": {}
+                        }
+                    },
+                    "contextualAttributes": []
+                },
+                "errors": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php",
+        "line": 209,
+        "function": "get",
+        "class": "Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine",
+        "object": {},
+        "type": "->",
+        "args": [
+            "D:\\windows\\programs\\xamp\\htdocs\\king-store\\resources\\views\/dashboard.blade.php",
+            {
+                "__env": {},
+                "app": {
+                    "contextual": {
+                        "Laravel\\Telescope\\Storage\\DatabaseEntriesRepository": {
+                            "$connection": "mysql",
+                            "$chunkSize": 1000
+                        },
+                        "Livewire\\Volt\\Precompilers\\ExtractFragments": {
+                            "$compiledViewPath": {}
+                        }
+                    },
+                    "contextualAttributes": []
+                },
+                "errors": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php",
+        "line": 192,
+        "function": "getContents",
+        "class": "Illuminate\\View\\View",
+        "object": {},
+        "type": "->",
+        "args": []
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php",
+        "line": 161,
+        "function": "renderContents",
+        "class": "Illuminate\\View\\View",
+        "object": {},
+        "type": "->",
+        "args": []
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php",
+        "line": 79,
+        "function": "render",
+        "class": "Illuminate\\View\\View",
+        "object": {},
+        "type": "->",
+        "args": []
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php",
+        "line": 35,
+        "function": "setContent",
+        "class": "Illuminate\\Http\\Response",
+        "object": {
+            "headers": {},
+            "original": {},
+            "exception": null
+        },
+        "type": "->",
+        "args": [
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php",
+        "line": 58,
+        "function": "__construct",
+        "class": "Illuminate\\Http\\Response",
+        "object": {
+            "headers": {},
+            "original": {},
+            "exception": null
+        },
+        "type": "->",
+        "args": [
+            {},
+            200,
+            []
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php",
+        "line": 88,
+        "function": "make",
+        "class": "Illuminate\\Routing\\ResponseFactory",
+        "object": {},
+        "type": "->",
+        "args": [
+            {},
+            200,
+            []
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ViewController.php",
+        "line": 41,
+        "function": "view",
+        "class": "Illuminate\\Routing\\ResponseFactory",
+        "object": {},
+        "type": "->",
+        "args": [
+            "dashboard",
+            [],
+            200,
+            []
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ViewController.php",
+        "line": 58,
+        "function": "__invoke",
+        "class": "Illuminate\\Routing\\ViewController",
+        "object": {},
+        "type": "->",
+        "args": {
+            "view": "dashboard",
+            "data": [],
+            "status": 200,
+            "headers": []
+        }
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php",
+        "line": 44,
+        "function": "callAction",
+        "class": "Illuminate\\Routing\\ViewController",
+        "object": {},
+        "type": "->",
+        "args": [
+            "__invoke",
+            {
+                "view": "dashboard",
+                "data": [],
+                "status": 200,
+                "headers": []
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php",
+        "line": 266,
+        "function": "dispatch",
+        "class": "Illuminate\\Routing\\ControllerDispatcher",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "uri": "dashboard",
+                "methods": [
+                    "GET",
+                    "HEAD"
+                ],
+                "action": {
+                    "middleware": [
+                        "web",
+                        "auth",
+                        "verified"
+                    ],
+                    "uses": "\\Illuminate\\Routing\\ViewController@__invoke",
+                    "controller": "\\Illuminate\\Routing\\ViewController",
+                    "namespace": null,
+                    "prefix": "",
+                    "where": [],
+                    "as": "dashboard"
+                },
+                "isFallback": false,
+                "controller": {},
+                "defaults": {
+                    "view": "dashboard",
+                    "data": [],
+                    "status": 200,
+                    "headers": []
+                },
+                "wheres": [],
+                "parameters": {
+                    "view": "dashboard",
+                    "data": [],
+                    "status": 200,
+                    "headers": []
+                },
+                "parameterNames": [],
+                "computedMiddleware": [
+                    "web",
+                    "auth",
+                    "verified"
+                ],
+                "compiled": {}
+            },
+            {},
+            "__invoke"
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php",
+        "line": 212,
+        "function": "runController",
+        "class": "Illuminate\\Routing\\Route",
+        "object": {
+            "uri": "dashboard",
+            "methods": [
+                "GET",
+                "HEAD"
+            ],
+            "action": {
+                "middleware": [
+                    "web",
+                    "auth",
+                    "verified"
+                ],
+                "uses": "\\Illuminate\\Routing\\ViewController@__invoke",
+                "controller": "\\Illuminate\\Routing\\ViewController",
+                "namespace": null,
+                "prefix": "",
+                "where": [],
+                "as": "dashboard"
+            },
+            "isFallback": false,
+            "controller": {},
+            "defaults": {
+                "view": "dashboard",
+                "data": [],
+                "status": 200,
+                "headers": []
+            },
+            "wheres": [],
+            "parameters": {
+                "view": "dashboard",
+                "data": [],
+                "status": 200,
+                "headers": []
+            },
+            "parameterNames": [],
+            "computedMiddleware": [
+                "web",
+                "auth",
+                "verified"
+            ],
+            "compiled": {}
+        },
+        "type": "->",
+        "args": []
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+        "line": 808,
+        "function": "run",
+        "class": "Illuminate\\Routing\\Route",
+        "object": {
+            "uri": "dashboard",
+            "methods": [
+                "GET",
+                "HEAD"
+            ],
+            "action": {
+                "middleware": [
+                    "web",
+                    "auth",
+                    "verified"
+                ],
+                "uses": "\\Illuminate\\Routing\\ViewController@__invoke",
+                "controller": "\\Illuminate\\Routing\\ViewController",
+                "namespace": null,
+                "prefix": "",
+                "where": [],
+                "as": "dashboard"
+            },
+            "isFallback": false,
+            "controller": {},
+            "defaults": {
+                "view": "dashboard",
+                "data": [],
+                "status": 200,
+                "headers": []
+            },
+            "wheres": [],
+            "parameters": {
+                "view": "dashboard",
+                "data": [],
+                "status": 200,
+                "headers": []
+            },
+            "parameterNames": [],
+            "computedMiddleware": [
+                "web",
+                "auth",
+                "verified"
+            ],
+            "compiled": {}
+        },
+        "type": "->",
+        "args": []
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 170,
+        "function": "Illuminate\\Routing\\{closure}",
+        "class": "Illuminate\\Routing\\Router",
+        "object": {
+            "middlewarePriority": [
+                "Illuminate\\Foundation\\Http\\Middleware\\HandlePrecognitiveRequests",
+                "Illuminate\\Cookie\\Middleware\\EncryptCookies",
+                "Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse",
+                "Illuminate\\Session\\Middleware\\StartSession",
+                "Illuminate\\View\\Middleware\\ShareErrorsFromSession",
+                "Illuminate\\Contracts\\Auth\\Middleware\\AuthenticatesRequests",
+                "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+                "Illuminate\\Routing\\Middleware\\ThrottleRequestsWithRedis",
+                "Illuminate\\Contracts\\Session\\Middleware\\AuthenticatesSessions",
+                "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+                "Illuminate\\Auth\\Middleware\\Authorize"
+            ]
+        },
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified.php",
+        "line": 41,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php",
+        "line": 51,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php",
+        "line": 64,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Auth\\Middleware\\Authenticate",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php",
+        "line": 88,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php",
+        "line": 49,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\View\\Middleware\\ShareErrorsFromSession",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php",
+        "line": 121,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php",
+        "line": 64,
+        "function": "handleStatefulRequest",
+        "class": "Illuminate\\Session\\Middleware\\StartSession",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {},
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Session\\Middleware\\StartSession",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php",
+        "line": 37,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php",
+        "line": 75,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Cookie\\Middleware\\EncryptCookies",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 127,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+        "line": 807,
+        "function": "then",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+        "line": 786,
+        "function": "runRouteWithinStack",
+        "class": "Illuminate\\Routing\\Router",
+        "object": {
+            "middlewarePriority": [
+                "Illuminate\\Foundation\\Http\\Middleware\\HandlePrecognitiveRequests",
+                "Illuminate\\Cookie\\Middleware\\EncryptCookies",
+                "Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse",
+                "Illuminate\\Session\\Middleware\\StartSession",
+                "Illuminate\\View\\Middleware\\ShareErrorsFromSession",
+                "Illuminate\\Contracts\\Auth\\Middleware\\AuthenticatesRequests",
+                "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+                "Illuminate\\Routing\\Middleware\\ThrottleRequestsWithRedis",
+                "Illuminate\\Contracts\\Session\\Middleware\\AuthenticatesSessions",
+                "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+                "Illuminate\\Auth\\Middleware\\Authorize"
+            ]
+        },
+        "type": "->",
+        "args": [
+            {
+                "uri": "dashboard",
+                "methods": [
+                    "GET",
+                    "HEAD"
+                ],
+                "action": {
+                    "middleware": [
+                        "web",
+                        "auth",
+                        "verified"
+                    ],
+                    "uses": "\\Illuminate\\Routing\\ViewController@__invoke",
+                    "controller": "\\Illuminate\\Routing\\ViewController",
+                    "namespace": null,
+                    "prefix": "",
+                    "where": [],
+                    "as": "dashboard"
+                },
+                "isFallback": false,
+                "controller": {},
+                "defaults": {
+                    "view": "dashboard",
+                    "data": [],
+                    "status": 200,
+                    "headers": []
+                },
+                "wheres": [],
+                "parameters": {
+                    "view": "dashboard",
+                    "data": [],
+                    "status": 200,
+                    "headers": []
+                },
+                "parameterNames": [],
+                "computedMiddleware": [
+                    "web",
+                    "auth",
+                    "verified"
+                ],
+                "compiled": {}
+            },
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+        "line": 750,
+        "function": "runRoute",
+        "class": "Illuminate\\Routing\\Router",
+        "object": {
+            "middlewarePriority": [
+                "Illuminate\\Foundation\\Http\\Middleware\\HandlePrecognitiveRequests",
+                "Illuminate\\Cookie\\Middleware\\EncryptCookies",
+                "Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse",
+                "Illuminate\\Session\\Middleware\\StartSession",
+                "Illuminate\\View\\Middleware\\ShareErrorsFromSession",
+                "Illuminate\\Contracts\\Auth\\Middleware\\AuthenticatesRequests",
+                "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+                "Illuminate\\Routing\\Middleware\\ThrottleRequestsWithRedis",
+                "Illuminate\\Contracts\\Session\\Middleware\\AuthenticatesSessions",
+                "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+                "Illuminate\\Auth\\Middleware\\Authorize"
+            ]
+        },
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {
+                "uri": "dashboard",
+                "methods": [
+                    "GET",
+                    "HEAD"
+                ],
+                "action": {
+                    "middleware": [
+                        "web",
+                        "auth",
+                        "verified"
+                    ],
+                    "uses": "\\Illuminate\\Routing\\ViewController@__invoke",
+                    "controller": "\\Illuminate\\Routing\\ViewController",
+                    "namespace": null,
+                    "prefix": "",
+                    "where": [],
+                    "as": "dashboard"
+                },
+                "isFallback": false,
+                "controller": {},
+                "defaults": {
+                    "view": "dashboard",
+                    "data": [],
+                    "status": 200,
+                    "headers": []
+                },
+                "wheres": [],
+                "parameters": {
+                    "view": "dashboard",
+                    "data": [],
+                    "status": 200,
+                    "headers": []
+                },
+                "parameterNames": [],
+                "computedMiddleware": [
+                    "web",
+                    "auth",
+                    "verified"
+                ],
+                "compiled": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+        "line": 739,
+        "function": "dispatchToRoute",
+        "class": "Illuminate\\Routing\\Router",
+        "object": {
+            "middlewarePriority": [
+                "Illuminate\\Foundation\\Http\\Middleware\\HandlePrecognitiveRequests",
+                "Illuminate\\Cookie\\Middleware\\EncryptCookies",
+                "Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse",
+                "Illuminate\\Session\\Middleware\\StartSession",
+                "Illuminate\\View\\Middleware\\ShareErrorsFromSession",
+                "Illuminate\\Contracts\\Auth\\Middleware\\AuthenticatesRequests",
+                "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+                "Illuminate\\Routing\\Middleware\\ThrottleRequestsWithRedis",
+                "Illuminate\\Contracts\\Session\\Middleware\\AuthenticatesSessions",
+                "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+                "Illuminate\\Auth\\Middleware\\Authorize"
+            ]
+        },
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+        "line": 201,
+        "function": "dispatch",
+        "class": "Illuminate\\Routing\\Router",
+        "object": {
+            "middlewarePriority": [
+                "Illuminate\\Foundation\\Http\\Middleware\\HandlePrecognitiveRequests",
+                "Illuminate\\Cookie\\Middleware\\EncryptCookies",
+                "Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse",
+                "Illuminate\\Session\\Middleware\\StartSession",
+                "Illuminate\\View\\Middleware\\ShareErrorsFromSession",
+                "Illuminate\\Contracts\\Auth\\Middleware\\AuthenticatesRequests",
+                "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+                "Illuminate\\Routing\\Middleware\\ThrottleRequestsWithRedis",
+                "Illuminate\\Contracts\\Session\\Middleware\\AuthenticatesSessions",
+                "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+                "Illuminate\\Auth\\Middleware\\Authorize"
+            ]
+        },
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 170,
+        "function": "Illuminate\\Foundation\\Http\\{closure}",
+        "class": "Illuminate\\Foundation\\Http\\Kernel",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php",
+        "line": 19,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+        "line": 21,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php",
+        "line": 31,
+        "function": "handle",
+        "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+        "line": 21,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php",
+        "line": 51,
+        "function": "handle",
+        "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php",
+        "line": 27,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Http\\Middleware\\ValidatePostSize",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php",
+        "line": 110,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php",
+        "line": 49,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Http\\Middleware\\HandleCors",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php",
+        "line": 58,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Http\\Middleware\\TrustProxies",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php",
+        "line": 22,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 209,
+        "function": "handle",
+        "class": "Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            },
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+        "line": 127,
+        "function": "Illuminate\\Pipeline\\{closure}",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+        "line": 176,
+        "function": "then",
+        "class": "Illuminate\\Pipeline\\Pipeline",
+        "object": {},
+        "type": "->",
+        "args": [
+            {}
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+        "line": 145,
+        "function": "sendRequestThroughRouter",
+        "class": "Illuminate\\Foundation\\Http\\Kernel",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php",
+        "line": 1193,
+        "function": "handle",
+        "class": "Illuminate\\Foundation\\Http\\Kernel",
+        "object": {},
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\public\\index.php",
+        "line": 17,
+        "function": "handleRequest",
+        "class": "Illuminate\\Foundation\\Application",
+        "object": {
+            "contextual": {
+                "Laravel\\Telescope\\Storage\\DatabaseEntriesRepository": {
+                    "$connection": "mysql",
+                    "$chunkSize": 1000
+                },
+                "Livewire\\Volt\\Precompilers\\ExtractFragments": {
+                    "$compiledViewPath": {}
+                }
+            },
+            "contextualAttributes": []
+        },
+        "type": "->",
+        "args": [
+            {
+                "attributes": {},
+                "request": {},
+                "query": {},
+                "server": {},
+                "files": {},
+                "cookies": {},
+                "headers": {}
+            }
+        ]
+    },
+    {
+        "file": "D:\\windows\\programs\\xamp\\htdocs\\king-store\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php",
+        "line": 23,
+        "args": [
+            "D:\\windows\\programs\\xamp\\htdocs\\king-store\\public\\index.php"
+        ],
+        "function": "require_once"
+    }
+]
