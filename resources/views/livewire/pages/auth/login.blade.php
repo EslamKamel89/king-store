@@ -21,9 +21,9 @@ new #[Layout('layouts.guest')] class extends Component
         Session::regenerate();
         $role = auth()->user()->role ;
         if($role == 0 ){
-            $this->redirectIntended(default: route('admin', absolute: false), navigate: true);
+            $this->redirectIntended(default: route('admin.dashboard', absolute: false), navigate: true);
         } else if ($role == 1) {
-            $this->redirectIntended(default: route('vendor', absolute: false), navigate: true);
+            $this->redirectIntended(default: route('vendor.dashboard', absolute: false), navigate: true);
         } else {
             $this->redirectIntended(default: route('dashboard', absolute: false), navigate: true);
         }

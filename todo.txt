@@ -1,0 +1,22 @@
+finished todos {
+
+}
+
+todos {
+    -- create category
+    -- manage category
+    -- create sub category
+    -- manage product
+    -- mangae product review
+    -- Order history
+    -- create and manage attributes
+    -- manage cart history
+    -- manage user
+    -- manage seller
+    -- manage store
+    -- stats
+    -- setting
+    -- create discount
+    -- manage discount
+    -- manage payment
+}
