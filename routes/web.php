@@ -31,6 +31,7 @@ Route::middleware( [ 'auth', 'verified', 'roleManger:admin' ] )
 			Route::get( '/manage/users', 'manageUser' )->name( 'admin.manage.user' );
 			Route::get( '/manage/stores', 'manageStore' )->name( 'admin.manage.store' );
 			Route::get( '/order/history', 'orderHistory' )->name( 'admin.order.history' );
+			Route::get( '/cart/history', 'cartHistory' )->name( 'admin.cart.history' );
 		} );
 		Route::controller( CategoryController::class)->group( function () {
 			Route::get( '/category/create', 'create' )->name( 'admin.category.create' );
@@ -41,8 +42,8 @@ Route::middleware( [ 'auth', 'verified', 'roleManger:admin' ] )
 			Route::get( '/subcategory/manage', 'manage' )->name( 'admin.subcategory.manage' );
 		} );
 		Route::controller( ProductController::class)->group( function () {
-			Route::get( '/product/manage', 'manage' )->name( 'admin.product.manage' );
-			Route::get( '/product/review/manage', 'create' )->name( 'admin.product.review.manage' );
+			Route::get( '/product/manage', 'manageProduct' )->name( 'admin.product.manage' );
+			Route::get( '/product/review/manage', 'manageReview' )->name( 'admin.product.review.manage' );
 		} );
 		Route::controller( ProductAttributeController::class)->group( function () {
 			Route::get( '/productattribute/create', 'create' )->name( 'admin.productattribute.create' );
