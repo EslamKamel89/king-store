@@ -6,20 +6,21 @@ use App\Http\Controllers\Admin\ProductAttributeController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\ProductDiscountController;
 use App\Http\Controllers\Admin\SubCategoryController;
+use App\Http\Controllers\Seller\SellerMainController;
+use App\Http\Controllers\Seller\StoreController as SellerStoreController;
+use App\Http\Controllers\Seller\ProductController as SellerProductController;
 use Illuminate\Support\Facades\Route;
 
 Route::view( '/', 'welcome' );
 
-Route::view( 'dashboard', 'dashboard' )
-	->middleware( [ 'auth', 'verified', 'roleManger:customer' ] )
-	->name( 'dashboard' );
-
-Route::view( 'vendor/dashboard', 'vendor' )
-	->middleware( [ 'auth', 'verified', 'roleManger:vendor' ] )
-	->name( 'vendor.dashboard' );
 Route::view( 'profile', 'profile' )
 	->middleware( [ 'auth' ] )
 	->name( 'profile' );
+
+//customer dashboard
+Route::view( 'dashboard', 'dashboard' )
+	->middleware( [ 'auth', 'verified', 'roleManger:customer' ] )
+	->name( 'dashboard' );
 
 // admin routes
 Route::middleware( [ 'auth', 'verified', 'roleManger:admin' ] )
@@ -54,5 +55,27 @@ Route::middleware( [ 'auth', 'verified', 'roleManger:admin' ] )
 			Route::get( '/discount/manage', 'manage' )->name( 'admin.discount.manage' );
 		} );
 	} );
+
+
+
+
+// seller routes
+Route::middleware( [ 'auth', 'verified', 'roleManger:vendor' ] )
+	->prefix( 'vendor' )
+	->group( function () {
+		Route::controller( SellerMainController::class)->group( function () {
+			Route::get( 'dashboard', 'index' )->name( 'vendor.dashboard' );
+			Route::get( 'order/history', 'orderhistory' )->name( 'vendor.order.history' );
+		} );
+		Route::controller( SellerStoreController::class)->group( function () {
+			Route::get( '/store/create', 'create' )->name( 'vendor.store.create' );
+			Route::get( '/store/manage', 'manage' )->name( 'vendor.store.manage' );
+		} );
+		Route::controller( SellerProductController::class)->group( function () {
+			Route::get( '/product/create', 'create' )->name( 'vendor.product.create' );
+			Route::get( '/product/manage', 'manage' )->name( 'vendor.product.manage' );
+		} );
+	} );
+
 
 require __DIR__ . '/auth.php';
